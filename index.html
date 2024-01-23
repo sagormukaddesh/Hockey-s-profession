@@ -8,10 +8,12 @@
     <!-- tailwind link  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- googole font  -->
+    
 
 </head>
 
-<body class="container mx-auto ">
+<body class="container mx-auto">
     <!-- header  -->
     <header>
         <!-- navbar  -->
@@ -55,7 +57,7 @@
 
         <!-- banner section -->
         <section class="mt-10 mb-16 flex flex-col lg flex-row  relative">
-            <div class="carousel w-full h-[550px]">
+            <div class="carousel mx-4 lg:w-full lg:h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full ">
                     <img src="./Images/1.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -88,7 +90,7 @@
 
             </div>
             <div
-                class=" lg:absolute h-[24vh] mx-4 mt-6 lg:mx-auto lg:bottom-0  lg:right-0 mb-10 lg:mr-10  lg:w-6/12 text-white px-6  pt-4 bg-black  rounded-xl ">
+                class=" lg:absolute  lg:h-[24vh] mx-4 mt-6 lg:mx-auto lg:bottom-0  lg:right-0 mb-10 lg:mr-10 py-4 lg:w-6/12 text-white px-6  pt-4 bg-black  rounded-xl ">
                 <h3 class=" text-xl font-extrabold mb-4 mt-4">Meet all the heroes from the field</h3>
                 <p> Explore and Meet All the Mighty Heroes of the Hockey World in a Gaming Experience Like Never Before.
                     Lace up, hit the ice, and play with the champions! </p>
@@ -165,52 +167,58 @@
         </section>
 
         <!-- Program Sections -->
-        <section class=" mx-auto text-center my-24">
+        <div class=" mx-auto text-center my-24">
             <h2 class="text-3xl lg:text-5xl font-extrabold mb-4">Program Highlights</h2>
             <p class="w-11/12 lg:w-[650px] text-lg mx-auto"> Immerse Yourself in a World of Gaming Excellence with our
                 Exclusive Sections - From Hero Spotlights to In-Depth Reviews, Your Ultimate Source for Hockey Gaming
                 Excitement Awaits!</p>
 
-            <div class="mx-4 lg:mx-auto grid grid-cols-1  lg:grid-cols-2 my-16 gap-20 lg:w-[1160px]">
-                <div class=" rounded-xl">
-                    <img src="./Images/2.png" alt="">
-                    <div class=" relative w-5/6 -mt-[50%] ml-10 lg:-mt-60 lg:ml-10 text-start text-white space-y-4 ">
-
-                        <h3 class="text-2xl">Program Showcase</h3>
-                        <p>Explore Exclusive Training Programs Tailored for Hockey Enthusiasts. Elevate Skills, Forge
-                            Bonds, and Embrace Victory on Ice</p>
-                        <button class="btn btn-ghost bg-red-500 px-10 ">Register Now!</button>
+            <div class="grid grid-cols-1 lg:grid-cols-2 col-span-2 gap-10 mx-4 my-12">
+                <!-- card 1  -->
+                <div class="hero  lg:col-span-1 min-h-[340px] rounded-xl"
+                    style="background-image: url(./Images/2.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+                    <div class="hero-content text-start mt-20 lg:ml-10 text-neutral-content">
+                        <div class="max-w-m">
+                            <h1 class="mb-5 text-4xl font-bold">Program Showcase</h1>
+                            <p class="mb-5">Explore Exclusive Training Programs Tailored for Hockey Enthusiasts. Elevate
+                                Skills, Forge
+                                Bonds, and Embrace Victory on Ice.</p>
+                            <button class="btn btn-ghost bg-red-500 px-10">Register Now!</button>
+                        </div>
                     </div>
                 </div>
-
-                <div class="">
-                    <div class="bg-slate-600 bg-opacity-100 rounded-xl ">
-                        <img src="./Images/3.png" alt="">
-                    </div>
-                    <div class="relative w-5/6 -mt-[50%] lg:-mt-60 ml-10 text-start text-white space-y-4 ">
-
-                        <h3 class="text-2xl">Prime Picks</h3>
-                        <p> Explore Our Premier Choices for an Unmatched
-                            Experience in Hockey Enthusiast's Paradise.</p>
-                        <button class="btn btn-ghost bg-red-500 px-10">Register Now!</button>
-                    </div>
-                </div>
-                <div class="lg:col-span-2 bg-gradient-to-r from-transparent to-black">
-                    <img class=" h-[450px]" src="./Images/4.png" alt="">
-                    <div class="relative w-4/6 -mt-60 ml-10 text-start text-white space-y-4 ">
-
-                        <h3 class="text-2xl">Junior Program</h3>
-                        <p>Nurturing Young Talents, Building Skills, and Fostering Team Spirit. Join our Junior Program
-                            for an Unforgettable Hockey Journey.</p>
-                        <button class="btn btn-ghost bg-red-500 px-10 ">Register Now!</button>
+                <!-- card 2  -->
+                <div class="hero lg:col-span-1 min-h-[340px] rounded-xl" style="background-image: url(./Images/3.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+                    <div class="hero-content mt-20 lg:mr-10 text-start text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-5xl font-bold">Prime Picks</h1>
+                            <p class="mb-5">Explore Our Premier Choices for an Unmatched
+                                Experience in Hockey Enthusiast's Paradise.</p>
+                            <button class="btn btn-ghost bg-red-500 px-10">Register Now!</button>
+                        </div>
                     </div>
                 </div>
-
+                <!-- card 3  -->
+                <div class="hero lg:col-span-2 min-h-[450px] rounded-xl" style="background-image: url(./Images/4.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+                    <div class="hero-content mt-40  text-start text-neutral-content">
+                        <div class="max-w-md lg:mr-96">
+                            <h1 class="mb-5  text-5xl font-bold">Junior Program</h1>
+                            <p class="mb-5">Nurturing Young Talents, Building Skills, and Fostering Team Spirit. Join
+                                our Junior Program
+                                for an Unforgettable Hockey Journey.</p>
+                            <button class="btn btn-ghost bg-red-500 px-10">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- demo section end -->
 
-
-
-        </section>
 
         <!-- Our New Products -->
         <section class="mt-40 mx-4 lg:mx-0">
