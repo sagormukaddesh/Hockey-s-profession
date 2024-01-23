@@ -16,7 +16,7 @@
     <header>
         <!-- navbar  -->
         <nav>
-            <div class="navbar bg-gradient-to-r from-amber-100 to-red-100">
+            <div class="navbar pb-6 bg-gradient-to-r from-slate-100 to-red-100">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -35,26 +35,26 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl lg:text-5xl">Hockey's</a>
+                    <a class="btn btn-ghost text-xl lg:text-5xl">Hockey<span class="text-red-500">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 text-xl font-semibold">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
+                    <ul class="menu lg:gap-4  menu-horizontal px-1 text-lg font-semibold">
+                        <li class="hover:bg-red-400 rounded-lg hover:text-white"><a>Home</a></li>
+                        <li class="hover:bg-red-400 rounded-lg hover:text-white"><a>About</a></li>
+                        <li class="hover:bg-red-400 rounded-lg hover:text-white"><a>Pages</a></li>
+                        <li class="hover:bg-red-400 rounded-lg hover:text-white"><a>Blog</a></li>
+                        <li class="hover:bg-red-400 rounded-lg hover:text-white"><a>Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end flex gap-4">
-                    <img src="./Images/Frame.svg" alt="">
+                    <img class="hidden lg:block" src="./Images/Frame.svg" alt="">
                     <a class="btn bg-red-500 text-white px-8">Get Ticket</a>
                 </div>
             </div>
         </nav>
 
         <!-- banner section -->
-        <section class="my-16 relative">
+        <section class="mt-10 mb-16 flex flex-col lg flex-row  relative">
             <div class="carousel w-full h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full ">
                     <img src="./Images/1.png" class="w-full" />
@@ -88,10 +88,10 @@
 
             </div>
             <div
-                class="absolute h-[20vh] mx-auto ml-20  w-2/5 text-white px-6  pt-4 bg-black -translate-y-48 rounded-xl ">
-                <h3 class="text-xl font-extrabold mb-4">Meet all the heroes from the field</h3>
-                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
-                    sit nullam proin. </p>
+                class=" lg:absolute h-[24vh] mx-4 mt-6 lg:mx-auto lg:bottom-0  lg:right-0 mb-10 lg:mr-10  lg:w-6/12 text-white px-6  pt-4 bg-black  rounded-xl ">
+                <h3 class=" text-xl font-extrabold mb-4 mt-4">Meet all the heroes from the field</h3>
+                <p> Explore and Meet All the Mighty Heroes of the Hockey World in a Gaming Experience Like Never Before.
+                    Lace up, hit the ice, and play with the champions! </p>
 
             </div>
         </section>
@@ -102,14 +102,15 @@
         <!-- Hockeys Club section -->
         <section class=" my-24">
             <div class="text-center space-y-4 ">
-                <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
-                <p class="mx-auto lg:w-[700px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                <h2 class="text-2xl lg:text-5xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="mx-auto w-11/12 lg:w-[700px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                    turpis
                     placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 mx-8 my-16">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 mx-8 lg:mx-0 my-16">
 
                 <!-- card-1  -->
-                <div class="card  bg-base-100 shadow-xl">
+                <div class="card  bg-gradient-to-r from-amber-100 via-stone-100 to-pink-100 shadow-xl hover:border border-red-400 hover:border-b-4">
                     <figure class="px-10 pt-10">
                         <div class="radial-progress text-red-500" style="--value:94;" role="progressbar">94%</div>
                     </figure>
@@ -120,7 +121,7 @@
                     </div>
                 </div>
                 <!-- card 2 -->
-                <div class="card  bg-base-100 shadow-xl">
+                <div class="card  bg-gradient-to-r from-indigo-100 via-purple-100 to-sky-100 shadow-xl hover:border border-sky-400 hover:border-b-4">
                     <figure class="px-10 pt-10">
                         <div class="radial-progress text-cyan-500" style="--value:85;" role="progressbar">85%</div>
                     </figure>
@@ -131,7 +132,7 @@
                     </div>
                 </div>
                 <!-- card 3  -->
-                <div class="card  bg-base-100 shadow-xl">
+                <div class="card  bg-gradient-to-r from-lime-100 via-orange-100 to-lime-100 shadow-xl hover:border  border-amber-500 hover:border-b-4">
                     <figure class="px-10 pt-10">
                         <div class="radial-progress text-amber-600" style="--value:91;" role="progressbar">91%</div>
                     </figure>
@@ -142,7 +143,7 @@
                     </div>
                 </div>
                 <!-- card 4  -->
-                <div class="card  bg-base-100 shadow-xl">
+                <div class="card  bg-gradient-to-r from-indigo-100 via-purple-100 to-rose-100 shadow-xl hover:border border-blue-400 hover:border-b-4">
                     <figure class="px-10 pt-10">
                         <div class="radial-progress text-sky-500" style="--value:87;" role="progressbar">87%</div>
                     </figure>
@@ -157,43 +158,43 @@
         </section>
 
         <!-- Program Sections -->
-        <section class="w-[] mx-auto text-center my-24">
-            <h2 class="text-4xl font-extrabold mb-4">Program Sections</h2>
-            <p class=" lg:w-[650px] mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
-                placerat dolor. Purus urna in sit nullam proin. </p>
+        <section class=" mx-auto text-center my-24">
+            <h2 class="text-3xl lg:text-5xl font-extrabold mb-4">Program Highlights</h2>
+            <p class="w-11/12 lg:w-[650px] text-lg mx-auto"> Immerse Yourself in a World of Gaming Excellence with our
+                Exclusive Sections - From Hero Spotlights to In-Depth Reviews, Your Ultimate Source for Hockey Gaming
+                Excitement Awaits!</p>
 
             <div class="mx-4 lg:mx-auto grid grid-cols-1  lg:grid-cols-2 my-16 gap-20 lg:w-[1160px]">
-                <div class="">
+                <div class=" rounded-xl"  >
                     <img src="./Images/2.png" alt="">
-                    <div class="relative w-5/6 -mt-60 ml-10 text-start text-white space-y-4 ">
+                    <div class=" relative w-5/6 -mt-[50%] ml-10 lg:-mt-60 lg:ml-10 text-start text-white space-y-4 ">
 
-                        <h3 class="text-2xl">Junior Program</h3>
-                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed et in.</p>
+                        <h3 class="text-2xl">Program Showcase</h3>
+                        <p>Explore Exclusive Training Programs Tailored for Hockey Enthusiasts. Elevate Skills, Forge
+                            Bonds, and Embrace Victory on Ice</p>
                         <button class="btn btn-ghost bg-red-500 px-10 ">Register Now!</button>
                     </div>
                 </div>
 
                 <div class="">
-                    <img src="./Images/3.png" alt="">
-                    <div class="relative w-5/6 -mt-60 ml-10 text-start text-white space-y-4 ">
+                    <div class="bg-slate-600 bg-opacity-100 rounded-xl "  >
+                        <img  src="./Images/3.png" alt="">
+                    </div>
+                    <div class="relative w-5/6 -mt-[50%] lg:-mt-60 ml-10 text-start text-white space-y-4 ">
 
-                        <h3 class="text-2xl">Junior Program</h3>
-                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed et in.</p>
-                        <button class="btn btn-ghost bg-red-500 px-10 ">Register Now!</button>
+                        <h3 class="text-2xl">Prime Picks</h3>
+                        <p > Explore Our Premier Choices for an Unmatched
+                            Experience in Hockey Enthusiast's Paradise.</p>
+                        <button class="btn btn-ghost bg-red-500 px-10">Register Now!</button>
                     </div>
                 </div>
-                <div class="lg:col-span-2">
-                    <img class="h-[450px]" src="./Images/4.png" alt="">
+                <div class="lg:col-span-2 bg-gradient-to-r from-transparent to-black">
+                    <img class=" h-[450px]" src="./Images/4.png" alt="">
                     <div class="relative w-4/6 -mt-60 ml-10 text-start text-white space-y-4 ">
 
                         <h3 class="text-2xl">Junior Program</h3>
-                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed et in.</p>
+                        <p>Nurturing Young Talents, Building Skills, and Fostering Team Spirit. Join our Junior Program
+                            for an Unforgettable Hockey Journey.</p>
                         <button class="btn btn-ghost bg-red-500 px-10 ">Register Now!</button>
                     </div>
                 </div>
@@ -205,18 +206,18 @@
         </section>
 
         <!-- Our New Products -->
-        <section class="mt-40 mx-4">
+        <section class="mt-40 mx-4 lg:mx-0">
             <div class="text-center mb-16">
-                <h2 class="text-6xl font-bold mb-4">
+                <h2 class="text-3xl lg:text-5xl font-bold mb-4">
                     Our New Products
                 </h2>
-                <p class="w-2/4 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
-                    dolor. Purus urna in
-                    sit nullam proin. </p>
+                <p class="w- lg:w-2/4 mx-auto">Explore Our Latest Products, Elevating Your Experience to New Heights.
+                    Discover Cutting-Edge Designs and Features that Redefine Excellence in [Your Product Category]</p>
             </div>
-            <div class="grid grid-cols-1 gap-20 lg:grid-cols-2 rounded-xl">
+            <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
                 <!-- card-1  -->
-                <div class="hero bg-base-200">
+                <div
+                    class="hero bg-base-100 rounded-xl border border-amber-100 hover:border-red-300 hover:text-primary">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -235,18 +236,19 @@
                                 </div>
                             </div>
                             <h1 class="text-2xl font-bold py-2">Box Office News!</h1>
-                            <p class="mb-2">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <p class="mb-2 "> Where Style Meets the Field! Explore the Latest Trends and Score Exclusive
+                                Jerseys in Our Box Office Collection – Your Gateway to Athletic Elegance</p>
                             <div class="flex">
                                 <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
                                 <img src="./Images/shop.svg" alt="">
-                                <p class="ml-2">Delivery Fee : Free</p>
+                                <p class="ml-2 ">Delivery Fee : Free</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- card-2  -->
-                <div class="hero bg-base-200">
+                <div
+                    class="hero bg-base-100 rounded-xl border border-blue-100 hover:border-blue-400 hover:text-primary">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -265,8 +267,9 @@
                                 </div>
                             </div>
                             <h1 class="text-2xl font-bold py-2">Box Office News!</h1>
-                            <p class="mb-2">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <p class="mb-2"> Dive into Football Fashion at Our Cap Box Office! Discover Trendsetting
+                                Designs and Exclusive Caps – Your Gateway to Enhancing Your Game On and Off the Field!
+                            </p>
                             <div class="flex">
                                 <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
                                 <img src="./Images/shop.svg" alt="">
@@ -276,7 +279,8 @@
                     </div>
                 </div>
                 <!-- card-3  -->
-                <div class="hero  bg-base-200">
+                <div
+                    class="hero  bg-base-100 rounded-xl border border-amber-100 hover:border-red-300 hover:text-primary">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -295,8 +299,9 @@
                                 </div>
                             </div>
                             <h1 class="text-2xl font-bold py-2">Box Office News!</h1>
-                            <p class="mb-2">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <p class="mb-2">Elevate Your Headwear Game at Our Exclusive Cap Box Office! From
+                                Trendsetting Designs to Must-Have Styles – Uncover the Perfect Cap to Crown Your Fashion
+                                Statement!</p>
                             <div class="flex">
                                 <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
                                 <img src="./Images/shop.svg" alt="">
@@ -306,7 +311,8 @@
                     </div>
                 </div>
                 <!-- card-4  -->
-                <div class="hero  bg-base-200">
+                <div
+                    class="hero  bg-base-100 rounded-xl border border-blue-100 hover:border-blue-400 hover:text-primary">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -325,8 +331,9 @@
                                 </div>
                             </div>
                             <h1 class="text-2xl font-bold py-2">Box Office News!</h1>
-                            <p class="mb-2">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <p class="mb-2">Unleash Your Style Game with Our Box Office Collection! From Trendsetting
+                                Designs to Exclusive Jerseys – Elevate Your Sports Look and Make a Statement on and off
+                                the Field!</p>
                             <div class="flex">
                                 <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
                                 <img src="./Images/shop.svg" alt="">
@@ -336,7 +343,8 @@
                     </div>
                 </div>
                 <!-- card-5  -->
-                <div class="hero  bg-base-200">
+                <div
+                    class="hero  bg-base-100 rounded-xl border border-amber-100 hover:border-red-300 hover:text-primary">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -355,8 +363,9 @@
                                 </div>
                             </div>
                             <h1 class="text-2xl font-bold py-2">Box Office News!</h1>
-                            <p class="mb-2">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <p class="mb-2">Safeguard Your Style with Our Exclusive Collection! Discover Cutting-Edge
+                                Designs at the Helmet Box Office – Where Safety Meets Sleekness for the Ultimate
+                                Headgear Experience!</p>
                             <div class="flex">
                                 <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
                                 <img src="./Images/shop.svg" alt="">
@@ -366,7 +375,8 @@
                     </div>
                 </div>
                 <!-- card-6  -->
-                <div class="hero  bg-base-200">
+                <div
+                    class="hero  bg-base-100 rounded-xl border border-blue-100 hover:border-blue-400 hover:text-primary">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -385,8 +395,9 @@
                                 </div>
                             </div>
                             <h1 class="text-2xl font-bold py-2">Box Office News!</h1>
-                            <p class="mb-2">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                                exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                            <p class="mb-2"> Explore the Latest in Football Fashion at Our Jersey Box Office! Elevate
+                                Your Game with Trendsetting Designs and Exclusive Jerseys – Where Style Meets the
+                                Beautiful Game!</p>
                             <div class="flex">
                                 <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
                                 <img src="./Images/shop.svg" alt="">
@@ -401,115 +412,110 @@
         <!-- Clients Question -->
         <section class="my-24">
             <div class="text-center mb-16">
-                <h2 class="text-6xl font-bold mb-4">
+                <h2 class=" text-3xl lg:text-5xl font-bold mb-4">
                     Clients Question
                 </h2>
-                <p class="w-2/4 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
-                    dolor. Purus urna in
-                    sit nullam proin. </p>
+                <p class=" w-11/12 lg:w-2/4 mx-auto"> Navigate the World of Hockey Clubs with Confidence as We Address
+                    Your Inquiries, Share Insider Insights, and Keep You Informed on All Things Puck and Play </p>
             </div>
-            <div class="flex flex-col lg:flex-row mx-4 gap-10">
+            <div class="grid grid-cols-1 lg:grid-cols-3 mx-4 lg:mx-0 gap-10">
 
-                <div class="flex-1 mx-auto">
+                <div class=" mx-auto">
                     <img src="./Images/11.png" alt="">
                 </div>
 
-                <div class="flex-1">
-                    <div class="collapse collapse-plus bg-base-200">
+                <div class="lg:col-span-2 ">
+                    <div class="collapse rounded-t-xl rounded-b-none collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" checked="checked" />
                         <div class="collapse-title text-xl font-medium">
                             Our Equipment
                         </div>
-                        <div class="collapse-content">
-                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in
-                                magna.</p>
+                        <div class="collapse-content ">
+                            <p>Gear Up for Victory: Explore Top-notch Hockey Equipment Tailored for Excellence. Elevate
+                                Your Game with Our Premium Sporting Essentials.</p>
                         </div>
                     </div>
-                    <div class="collapse collapse-plus bg-base-200">
+                    <div class="collapse rounded-none collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
                             Hockey Training
                         </div>
                         <div class="collapse-content">
-                            <p>hello</p>
+                            <p> Elevate Your Hockey Skills with Our Expertly Crafted Training Programs. Unleash Your
+                                Full Potential on the Ice with Us!</p>
                         </div>
                     </div>
-                    <div class="collapse collapse-plus bg-base-200">
+                    <div class="collapse rounded-none collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
                             Private Lessons
                         </div>
                         <div class="collapse-content">
-                            <p>hello</p>
+                            <p> Elevate Your Game with Tailored Hockey Private Lessons. Unlock Your Full Potential with
+                                One-on-One Guidance from Our Expert Coaches</p>
                         </div>
                     </div>
-                    <div class="collapse collapse-plus bg-base-200">
+                    <div class="collapse rounded-none collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
 
                             Ski Touring
                         </div>
                         <div class="collapse-content">
-                            <p>hello</p>
+                            <p> Embark on Epic Ski Touring Adventures. Discover Untouched Slopes with Our Guided Tours –
+                                Where Thrills and Scenic Views Unite</p>
                         </div>
                     </div>
-                    <div class="collapse collapse-plus bg-base-200">
+                    <div class="collapse rounded-none collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
 
                             Booking
                         </div>
                         <div class="collapse-content">
-                            <p>hello</p>
+                            <p>Booking Made Easy: Step-by-Step Guide on How to Reserve Your Spot. Seamless Process for
+                                Securing Your Experience – Your Adventure Begins with a Simple Booking</p>
                         </div>
                     </div>
-                    <div class="collapse collapse-plus bg-base-200">
+                    <div class="collapse rounded-b-xl rounded-t-none collapse-plus bg-base-200 pb-4">
                         <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
                             Pricings
                         </div>
                         <div class="collapse-content">
-                            <p>hello</p>
+                            <p>Explore Our Transparent Pricing. Tailored Packages for Every Budget. Discover the Perfect
+                                Plan for Your Ultimate Hockey Experience.</p>
                         </div>
                     </div>
-                    <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" />
-                        <div class="collapse-title text-xl font-medium">
-                            How To Contract
-                        </div>
-                        <div class="collapse-content">
-                            <p>hello</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
 
-        <!-- get in tuch section -->
-        <section class="my-24">
-            <div class="my-10 text-center mx-auto  lg:w-[660px]">
-                <h2 class="text-5xl font-bold mb-4">Get In Touch</h2>
-                <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
-                    urna in
-                    sit nullam proin. </p>
+        <!-- get in touch section -->
+        <section class="mt-24 mb-12">
+            <div class="my-10 text-center mx-4 lg:mx-auto lg:w-[660px]">
+                <h2 class="text-3xl lg:text-5xl font-bold mb-4">Get In Touch</h2>
+                <p class=""> Reach Out and Stay in the Loop. Get in Touch for All Your Queries, Feedback, and Exciting
+                    Collaborations, Let's Elevate Your Experience Together! </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-0 ">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-10 ">
                 <!-- container-1  -->
-                <div class="space-y-4 mx-4 border border-slate-200 p-6 rounded-xl">
-                    <div class="bg-slate-200 p-4 rounded-xl">
+                <div class="space-y-4 mx-4 lg:mx-0 border border-slate-200 p-6 rounded-xl">
+                    <div class="bg-gradient-to-r from-slate-100 via-purple-200 to-stone-100 p-4 rounded-xl">
                         <img src="./Images/phone.png" alt="">
                         <p class="mt-3">Phone Number :</p>
                         <h4 class="text-xl font-bold"> (+62) 123-321-543</h4>
                     </div>
 
-                    <div class="bg-orange-100 p-4 rounded-xl">
+                    <div class="bg-gradient-to-r from-orange-100 via-lime-100 to-yellow-100 p-4 rounded-xl">
                         <img src="./Images/message.png" alt="">
                         <p class="mt-3">Email :</p>
                         <h4 class="text-xl font-bold">hockeys@support.com</h4>
                     </div>
 
-                    <div class="bg-lime-100 p-4 rounded-xl">
+                    <div class="bg-gradient-to-r from-cyan-50 via-violet-100 to-blue-100 p-4 rounded-xl">
                         <img src="./Images/location.png" alt="">
                         <p class="mt-3">Location :</p>
                         <h4 class="text-xl font-bold">152/1 Mohakhali Wireless Gate</h4>
@@ -517,7 +523,7 @@
                 </div>
 
                 <!-- container-2  -->
-                <div class="mx-4 col-span-2">
+                <div class="mx-4 lg:mx-0  col-span-2">
                     <div class="grid grid-cols-1  lg:grid-cols-2 gap-8">
                         <div>
                             <h2 class="textxl font-bold mb-4">Your Name</h2>
@@ -549,7 +555,7 @@
                 </div>
             </div>
             <!-- sosial container  -->
-            <div class="bg-slate-100 py-12 my-10 mx-auto text-center mx-6">
+            <div class="bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 py-12 mt-10  text-center mx-4 lg:mx-0">
                 <h3 class="text-xl font-bold">Social Media</h3>
 
                 <img class="mx-auto text-center  mt-4" src="./Images/Social.svg" alt="">
@@ -560,7 +566,66 @@
     </main>
 
     <!-- footer  -->
-    <footer></footer>
+    <footer
+        class="footer flex-col lg:flex-row footer-center p-20 bg-slate-700  mx-auto text-center lg:text-start  justify-around gap-10 text-white flex">
+        <aside>
+
+            <div class="font-bold mr-4">
+                <p class="text-xl">Hockey's Club</p> <br />
+                <p>Championing Excellence: Unite, <br> Elevate, Triumph on the Ice Together</p>
+            </div>
+            <div class="flex lg:mr-20 gap-4">
+                <img src="./Images/message-2.png" alt="">
+                <p>hockeys@support.com</p>
+            </div>
+            <div class="flex lg:mr-[100px] items-center gap-4">
+                <img src="./Images/call-2.png" alt="">
+                <p>(+62) 123-321-543</p>
+            </div>
+
+        </aside>
+        <div class="flex gap-36 ">
+            <aside>
+                <p class="text-xl font-bold">Company</p>
+                <p class="font-bold">
+                    <br />
+                    About us <br>
+                    Leadership <br>
+                    Careers <br>
+                    News & Article <br>
+                    Legal Notice <br>
+
+            </aside>
+
+            <aside>
+                <p class="text-xl font-bold">Support</p>
+                <p class="font-bold">
+                    <br />
+                    Help<br>
+                    FAQ <br>
+                    Ticket Support <br>
+                    Contact Us <br>
+                    Emergency
+                </p>
+
+            </aside>
+        </div>
+        <aside>
+            <p class="text-xl font-bold lg:mr-14">Service</p>
+            <p class="font-bold">
+                <br />
+                Academy <br>
+                Group Lesson <br>
+                Private Lesson <br>
+                Hockeys for kids <br>
+                Hockeys for Adult <br>
+            </p>
+
+        </aside>
+
+    </footer>
+
+
 
 </body>
 
