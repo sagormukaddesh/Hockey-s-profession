@@ -8,16 +8,13 @@
     <!-- tailwind link  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- googole font  -->
-    
-
 </head>
 
 <body class="container mx-auto">
     <!-- header  -->
     <header>
         <!-- navbar  -->
-        <nav>
+        <nav >
             <div class="navbar pb-6 bg-gradient-to-r from-slate-100 to-red-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -37,7 +34,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl lg:text-5xl">Hockey<span class="text-red-500">'</span>s</a>
+                    <a class="btn  text-xl lg:text-5xl">Hockey<span class="text-red-500">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu lg:gap-4  menu-horizontal px-1 text-lg font-semibold">
@@ -56,7 +53,7 @@
         </nav>
 
         <!-- banner section -->
-        <section class="mt-10 mb-16 flex flex-col lg flex-row  relative">
+        <section class="mt-10 mx-auto w-[100%] mb-16 flex flex-col lg:flex-row  relative">
             <div class="carousel mx-4 lg:w-full lg:h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full ">
                     <img src="./Images/1.png" class="w-full" />
@@ -105,7 +102,7 @@
         <section class=" my-24">
             <div class="text-center space-y-4 ">
                 <h2 class="text-2xl lg:text-5xl font-extrabold">Professional Hockeys Club</h2>
-                <p class="mx-auto w-11/12 lg:w-[700px]"> Dominating the Ice Scene with Precision and Power. Champions of
+                <p class="mx-auto  w-11/12 lg:w-[700px] font-bold"> Dominating the Ice Scene with Precision and Power. Champions of
                     Excellence, Masters of Glory in Professional Hockey. </p>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 mx-8 lg:mx-0 my-16">
@@ -179,7 +176,7 @@
                     style="background-image: url(./Images/2.png);">
                     <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
                     <div class="hero-content text-start mt-20 lg:ml-10 text-neutral-content">
-                        <div class="max-w-m">
+                        <div class="max-w-m ml-6 lg:ml-auto">
                             <h1 class="mb-5 text-4xl font-bold">Program Showcase</h1>
                             <p class="mb-5">Explore Exclusive Training Programs Tailored for Hockey Enthusiasts. Elevate
                                 Skills, Forge
@@ -204,7 +201,7 @@
                 <div class="hero lg:col-span-2 min-h-[450px] rounded-xl" style="background-image: url(./Images/4.png);">
                     <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
                     <div class="hero-content mt-40  text-start text-neutral-content">
-                        <div class="max-w-md lg:mr-96">
+                        <div class="max-w-md mb-10 lg:mr-96">
                             <h1 class="mb-5  text-5xl font-bold">Junior Program</h1>
                             <p class="mb-5">Nurturing Young Talents, Building Skills, and Fostering Team Spirit. Join
                                 our Junior Program
@@ -217,7 +214,6 @@
             <div></div>
             <div></div>
         </div>
-        <!-- demo section end -->
 
 
         <!-- Our New Products -->
@@ -226,15 +222,15 @@
                 <h2 class="text-3xl lg:text-5xl font-bold mb-4">
                     Our New Products
                 </h2>
-                <p class="w- lg:w-2/4 mx-auto">Explore Our Latest Products, Elevating Your Experience to New Heights.
+                <p class="w- lg:w-2/4 mx-auto font-bold">Explore Our Latest Products, Elevating Your Experience to New Heights.
                     Discover Cutting-Edge Designs and Features that Redefine Excellence in [Your Product Category]</p>
             </div>
             <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
                 <!-- card-1  -->
                 <div
-                    class="hero bg-base-100 rounded-xl border border-amber-100 hover:border-red-300 hover:text-primary">
+                    class="hero bg-base-100 lg:bg-gradient-to-r from-amber-100 via-purple-100 to-pink-100  rounded-xl hover:border hover:border-amber-200 hover:text-sky-700">
                     <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <img  src="./Images/5.png" class="w-full lg:rounded-lg shadow-2xl" />
                         <div>
                             <div class="flex gap-10">
                                 <div class="flex">
@@ -253,19 +249,22 @@
                             <h1 class="text-2xl font-bold py-2">Box Office News!</h1>
                             <p class="mb-2 "> Where Style Meets the Field! Explore the Latest Trends and Score Exclusive
                                 Jerseys in Our Box Office Collection – Your Gateway to Athletic Elegance</p>
-                            <div class="flex">
-                                <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
-                                <img src="./Images/shop.svg" alt="">
-                                <p class="ml-2 ">Delivery Fee : Free</p>
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:justify-between">
+                                <div class="lg:mr-10">
+                                    <h3 class="text-xl font-bold text-red-500">Price - $22.00</h3>
+                                </div>
+                                <div class="flex gap-4"> <img src="./Images/shop.svg" alt="">
+                                    <p class=" ">Delivery:Free</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- card-2  -->
                 <div
-                    class="hero bg-base-100 rounded-xl border border-blue-100 hover:border-blue-400 hover:text-primary">
+                    class="hero bg-base-100 lg:bg-gradient-to-r from-amber-100 via-purple-100 to-pink-100   rounded-xl hover:border hover:border-blue-300 hover:text-sky-700">
                     <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <img src="./Images/6.png" class="w-full lg:rounded-lg shadow-2xl" />
                         <div>
                             <div class="flex gap-10">
                                 <div class="flex">
@@ -285,19 +284,22 @@
                             <p class="mb-2"> Dive into Football Fashion at Our Cap Box Office! Discover Trendsetting
                                 Designs and Exclusive Caps – Your Gateway to Enhancing Your Game On and Off the Field!
                             </p>
-                            <div class="flex">
-                                <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
-                                <img src="./Images/shop.svg" alt="">
-                                <p class="ml-2">Delivery Fee : Free</p>
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:justify-between">
+                                <div class="lg:mr-10">
+                                    <h3 class="text-xl font-bold text-red-500">Price - $14.00</h3>
+                                </div>
+                                <div class="flex gap-4"> <img src="./Images/shop.svg" alt="">
+                                    <p class=" ">Delivery:Free</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- card-3  -->
                 <div
-                    class="hero  bg-base-100 rounded-xl border border-amber-100 hover:border-red-300 hover:text-primary">
+                    class="hero  bg-base-100 lg:bg-gradient-to-r from-amber-100 via-purple-100 to-pink-100   rounded-xl hover:border border-amber-100 hover:border-amber-300 hover:text-sky-700">
                     <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <img src="./Images/7.png" class="w-full  rounded-lg shadow-2xl" />
                         <div>
                             <div class="flex gap-10">
                                 <div class="flex">
@@ -317,19 +319,22 @@
                             <p class="mb-2">Elevate Your Headwear Game at Our Exclusive Cap Box Office! From
                                 Trendsetting Designs to Must-Have Styles – Uncover the Perfect Cap to Crown Your Fashion
                                 Statement!</p>
-                            <div class="flex">
-                                <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
-                                <img src="./Images/shop.svg" alt="">
-                                <p class="ml-2">Delivery Fee : Free</p>
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:justify-between">
+                                <div class="lg:mr-10">
+                                    <h3 class="text-xl font-bold text-red-500">Price - $12.00</h3>
+                                </div>
+                                <div class="flex gap-4"> <img src="./Images/shop.svg" alt="">
+                                    <p class=" ">Delivery:Free</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- card-4  -->
                 <div
-                    class="hero  bg-base-100 rounded-xl border border-blue-100 hover:border-blue-400 hover:text-primary">
+                    class="hero bg-base-100 lg:bg-gradient-to-r from-amber-100 via-purple-100 to-pink-100  rounded-xl hover:border border-blue-100 hover:border-blue-300 hover:text-sky-700">
                     <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <img src="./Images/8.png" class="w-full rounded-lg shadow-2xl" />
                         <div>
                             <div class="flex gap-10">
                                 <div class="flex">
@@ -349,19 +354,22 @@
                             <p class="mb-2">Unleash Your Style Game with Our Box Office Collection! From Trendsetting
                                 Designs to Exclusive Jerseys – Elevate Your Sports Look and Make a Statement on and off
                                 the Field!</p>
-                            <div class="flex">
-                                <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
-                                <img src="./Images/shop.svg" alt="">
-                                <p class="ml-2">Delivery Fee : Free</p>
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:justify-between">
+                                <div class="lg:mr-10">
+                                    <h3 class="text-xl font-bold text-red-500">Price - $25.00</h3>
+                                </div>
+                                <div class="flex gap-4"> <img src="./Images/shop.svg" alt="">
+                                    <p class=" ">Delivery:Free</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- card-5  -->
                 <div
-                    class="hero  bg-base-100 rounded-xl border border-amber-100 hover:border-red-300 hover:text-primary">
+                    class="hero bg-base-100 lg:bg-gradient-to-r from-amber-100 via-purple-100 to-pink-100 rounded-xl hover:border border-amber-100 hover:border-amber-200 hover:text-sky-700">
                     <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <img src="./Images/9.png" class="w-full rounded-lg shadow-2xl" />
                         <div>
                             <div class="flex gap-10">
                                 <div class="flex">
@@ -381,19 +389,22 @@
                             <p class="mb-2">Safeguard Your Style with Our Exclusive Collection! Discover Cutting-Edge
                                 Designs at the Helmet Box Office – Where Safety Meets Sleekness for the Ultimate
                                 Headgear Experience!</p>
-                            <div class="flex">
-                                <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
-                                <img src="./Images/shop.svg" alt="">
-                                <p class="ml-2">Delivery Fee : Free</p>
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:justify-between">
+                                <div class="lg:mr-10">
+                                    <h3 class="text-xl font-bold text-red-500">Price - $30.00</h3>
+                                </div>
+                                <div class="flex gap-4"> <img src="./Images/shop.svg" alt="">
+                                    <p class=" ">Delivery:Free</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- card-6  -->
                 <div
-                    class="hero  bg-base-100 rounded-xl border border-blue-100 hover:border-blue-400 hover:text-primary">
+                    class="hero  bg-base-100 lg:bg-gradient-to-r from-amber-100 via-purple-100  to-pink-100  rounded-xl hover:border border-blue-100 hover:border-blue-300 hover:text-sky-700">
                     <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <img src="./Images/10.png" class="w-full rounded-lg shadow-2xl" />
                         <div>
                             <div class="flex gap-10">
                                 <div class="flex">
@@ -413,10 +424,13 @@
                             <p class="mb-2"> Explore the Latest in Football Fashion at Our Jersey Box Office! Elevate
                                 Your Game with Trendsetting Designs and Exclusive Jerseys – Where Style Meets the
                                 Beautiful Game!</p>
-                            <div class="flex">
-                                <h3 class="text-xl font-bold text-red-500 mr-10">Price - $22.00</h3>
-                                <img src="./Images/shop.svg" alt="">
-                                <p class="ml-2">Delivery Fee : Free</p>
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:justify-between">
+                                <div class="lg:mr-10">
+                                    <h3 class="text-xl font-bold text-red-500">Price - $400.00</h3>
+                                </div>
+                                <div class="flex gap-4"> <img src="./Images/shop.svg" alt="">
+                                    <p class=" ">Delivery:Free</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -430,7 +444,7 @@
                 <h2 class=" text-3xl lg:text-5xl font-bold mb-4">
                     Clients Question
                 </h2>
-                <p class=" w-11/12 lg:w-2/4 mx-auto"> Navigate the World of Hockey Clubs with Confidence as We Address
+                <p class=" w-11/12 lg:w-2/4 mx-auto font-bold"> Navigate the World of Hockey Clubs with Confidence as We Address
                     Your Inquiries, Share Insider Insights, and Keep You Informed on All Things Puck and Play </p>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-3 mx-4 lg:mx-0 gap-10">
@@ -510,14 +524,14 @@
         <!-- get in touch section -->
         <section class="mt-24 mb-12">
             <div class="my-10 text-center mx-4 lg:mx-auto lg:w-[660px]">
-                <h2 class="text-3xl lg:text-5xl font-bold mb-4">Get In Touch</h2>
-                <p class=""> Reach Out and Stay in the Loop. Get in Touch for All Your Queries, Feedback, and Exciting
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4">Get In Touch</h2>
+                <p class="font-bold"> Reach Out and Stay in the Loop. Get in Touch for All Your Queries, Feedback, and Exciting
                     Collaborations, Let's Elevate Your Experience Together! </p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-10 ">
                 <!-- container-1  -->
-                <div class="space-y-4 mx-4 lg:mx-0 border border-slate-200 p-6 rounded-xl">
+                <div class="space-y-6 mx-4 lg:mx-auto lg:border border-slate-200 lg:p-6 rounded-xl">
                     <div class="bg-gradient-to-r from-slate-100 via-purple-200 to-stone-100 p-4 rounded-xl">
                         <img src="./Images/phone.png" alt="">
                         <p class="mt-3">Phone Number :</p>
@@ -538,30 +552,30 @@
                 </div>
 
                 <!-- container-2  -->
-                <div class="mx-4 lg:mx-0  col-span-2">
+                <div class="mx-4 lg:mx-0  lg:col-span-2">
                     <div class="grid grid-cols-1  lg:grid-cols-2 gap-8">
                         <div>
                             <h2 class="textxl font-bold mb-4">Your Name</h2>
-                            <input type="text" placeholder="Enter Your Name" class="input bg-slate-200 w-full " />
+                            <input type="text" placeholder="Enter Your Name" class="input bg-slate-100 w-full " />
                         </div>
                         <div>
                             <h2 class="textxl font-bold mb-4">Your Name</h2>
-                            <input type="email" placeholder="Enter Your Email" class="input bg-slate-200 w-full " />
+                            <input type="email" placeholder="Enter Your Email" class="input bg-slate-100 w-full " />
                         </div>
 
                         <div>
                             <h2 class="textxl font-bold mb-4">Subject</h2>
-                            <input type="text" placeholder=" Enter Your Subject" class="input bg-slate-200 w-full" />
+                            <input type="text" placeholder=" Enter Your Subject" class="input bg-slate-100 w-full" />
                         </div>
                         <div>
                             <h2 class="textxl font-bold mb-4">Phone Number</h2>
-                            <input type="text" placeholder="Phone Number" class="input bg-slate-200 w-full " />
+                            <input type="text" placeholder="Phone Number" class="input bg-slate-100 w-full " />
                         </div>
 
                     </div>
                     <div>
                         <h2 class="text-xl font-bold mb-2 mt-6">Message</h2>
-                        <textarea class="textarea textarea-bordered w-full h-[240px]"
+                        <textarea class="textarea border-none bg-slate-100 w-full h-[150px] lg:h-[240px]"
                             placeholder="Enter Your Messages"></textarea>
                     </div>
 
@@ -571,7 +585,7 @@
             </div>
             <!-- sosial container  -->
             <div
-                class="bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 py-12 mt-10  text-center mx-4 lg:mx-0">
+                class="rounded-md bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 py-12 mt-10  text-center mx-4 lg:mx-0">
                 <h3 class="text-xl font-bold">Social Media</h3>
 
                 <img class="mx-auto text-center  mt-4" src="./Images/Social.svg" alt="">
